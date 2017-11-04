@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
 public class LoadingActivityTest {
 
     @Rule
-    private ActivityTestRule<LoadingActivity> rule = new ActivityTestRule<>(LoadingActivity.class);
+    public ActivityTestRule<LoadingActivity> rule = new ActivityTestRule<>(LoadingActivity.class);
 
     @Test
     public void assertLoaderIsVisible() {
