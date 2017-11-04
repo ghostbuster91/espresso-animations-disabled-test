@@ -25,6 +25,7 @@ My tests consists of:
 
 Results:
 Below tables shows how does the `animationsDisabled` flag work depending on animation settings.
+
 The row `animations` represents the state of animations which can be altered through settings screen.
 
 Assert progressBar is visible:
@@ -34,7 +35,9 @@ Assert progressBar is visible:
 | Animations | DM | DM | DM | DM | ON | ON | ON | OFF | DM | DM |
 
 // DM stand for doesn't matter
+
 // OFF means that animations have to be turned off
+
 // ON means that animations have to be turned on
 
 Assert snackbar is visible:
@@ -50,6 +53,8 @@ Assert snackbar is clickable:
 | Animations | DM | DM | DM | DM | DM  | DM  | DM  | DM  | DM  | DM  |
 
 Summary:
+
 The `animationsDisabled` flag is not a silver bullet. It can helps us a lot, 
 but on some apis there is no easy solution to get espresso work with animations. 
+
 E.g. On api 22 we can't have both progressBar and snackbar working.
