@@ -3,7 +3,7 @@ package io.github.ghostbuster91.animations;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LoadingActivity extends AppCompatActivity {
+public class ProgressBarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

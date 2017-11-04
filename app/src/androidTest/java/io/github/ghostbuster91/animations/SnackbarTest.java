@@ -15,11 +15,6 @@ public class SnackbarTest {
     public ActivityTestRule<SnackbarActivity> rule = new ActivityTestRule<>(SnackbarActivity.class);
 
     @Test
-    public void assertSnackbarEffectiveVisibility() throws Exception {
-        Espresso.onView(ViewMatchers.withText("here i am")).check(ViewAssertions.matches(ViewMatchers.withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
-    }
-
-    @Test
     public void assertSnackbarIsDisplayed() throws Exception {
         Espresso.onView(ViewMatchers.withText("here i am")).check(ViewAssertions.matches(ViewMatchers.isDisplayed()));
     }

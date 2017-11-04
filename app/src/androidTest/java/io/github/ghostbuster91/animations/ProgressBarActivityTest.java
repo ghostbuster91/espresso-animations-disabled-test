@@ -11,10 +11,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
-public class LoadingActivityTest {
+public class ProgressBarActivityTest {
 
     @Rule
-    public ActivityTestRule<LoadingActivity> rule = new ActivityTestRule<>(LoadingActivity.class);
+    public ActivityTestRule<ProgressBarActivity> rule = new ActivityTestRule<>(ProgressBarActivity.class);
 
     @Test
     public void assertLoaderIsVisible() {
