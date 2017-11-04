@@ -34,11 +34,11 @@ Assert progressBar is visible:
 |------------|----|----|----|----|----|----|----|-----|----|----|
 | Animations | DM | DM | DM | DM | ON | ON | ON | OFF | DM | DM |
 
-// DM stand for doesn't matter
+*DM stand for doesn't matter*
 
-// OFF means that animations have to be turned off
+*OFF means that animations have to be turned off*
 
-// ON means that animations have to be turned on
+*ON means that animations have to be turned on*
 
 Assert snackbar is visible:
 
