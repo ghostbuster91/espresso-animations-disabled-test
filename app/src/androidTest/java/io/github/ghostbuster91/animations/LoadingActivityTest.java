@@ -1,4 +1,4 @@
-package io.github.ghostbuster91;
+package io.github.ghostbuster91.animations;
 
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.assertion.ViewAssertions;
