@@ -10,11 +10,15 @@ testOptions {
 ```
 Link to official documentation: [here](https://google.github.io/android-gradle-dsl/current/com.android.build.gradle.internal.dsl.TestOptions.html#com.android.build.gradle.internal.dsl.TestOptions:animationsDisabled)
 
-Ok, that's great, but does it really work? Do I have to still turn off animations manually? 
+Ok, that's great, but does it really work? Do I still have to turn off animations manually? 
 (Setting window_animation_scale and transition_animation_scale and animator_duration_scale to 0)
 
 ### TDLR; Yes, it mostly works.
 
+Also thanks to [dryrun](https://github.com/cesarferreira/dryrun) you can try it yourself.
+
+Just run `dryrun -a git@github.com:ghostbuster91/espresso-animations-disabled-test.git`
+### Overview
 Because it is very hard to find any information about this flag I decided to check it by myself.
 To do this I ran some tests against emulators with apis within range <16, 26>.
 
