@@ -28,9 +28,9 @@ My tests consists of:
 - performing click on snackbar action
 
 Results:
-Below tables shows how does the `animationsDisabled` flag work depending on animation settings.
+Below tables show what should be the state of animation settings so the corresponding tests passed, while having this flag turned on.
 
-The row `animations` represents the state of animations which can be altered through settings screen.
+The row `animations` represents the state of animations which can be altered through settings screen or adb commands.
 
 Assert progressBar is visible:
 
